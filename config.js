@@ -7,7 +7,7 @@ CKEDITOR.editorConfig = function( config ) {
 	// Define changes to default configuration here. For example:
 	// config.language = 'fr';
 	// config.uiColor = '#AADC6E';
-	config.language = 'zh';
+	config.language = 'en';
    config.height = 600; 
    config.allowedContent=true;
    config.fillEmptyBlocks = false;
@@ -20,7 +20,7 @@ CKEDITOR.editorConfig = function( config ) {
    // config.tabSpaces = 0;
    // config.entities = false;
    // config.contentsCss = 'mystylesheet.css';
-	config.extraPlugins = 'slideshow';
+	config.extraPlugins = 'slideshow,image2';
 
    config.stylesSet= [
       { name: 'Image decoration', type: 'widget', widget: 'image', attributes: { 'class': 'testStyle' } }
