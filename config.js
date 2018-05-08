@@ -20,7 +20,7 @@ CKEDITOR.editorConfig = function( config ) {
    // config.tabSpaces = 0;
    // config.entities = false;
    // config.contentsCss = 'mystylesheet.css';
-	config.extraPlugins = 'slideshow,image2';
+	config.extraPlugins = 'slideshow';
 
    config.stylesSet= [
       { name: 'Image decoration', type: 'widget', widget: 'image', attributes: { 'class': 'testStyle' } }
