@@ -32,7 +32,7 @@ CKEDITOR.editorConfig = function( config ) {
    config.slideshowDoNotLoadJquery = true;
 	config.toolbar= [['Source', '-', 'NewPage', 'Preview', '-', 'Templates'],
                            ['Undo', 'Redo', '-', 'SelectAll', 'RemoveFormat'],
-                           ['Styles', 'Format', 'Font', 'FontSize'],
+                           ['Styles', 'Format'],
                            ['TextColor', 'BGColor'],
                            ['Maximize', 'ShowBlocks', '-', 'About'], '/',
                            ['Bold', 'Italic', 'Underline', 'Strike', '-', 'Subscript', 'Superscript'],
